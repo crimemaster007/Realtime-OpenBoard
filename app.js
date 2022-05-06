@@ -6,6 +6,7 @@ const app = express(); //Initiliazed and server ready
 app.use(express.static("public"));
 
 let port = process.envy.PORT || 5000;
+//port
 let server = app.listen(port, () => {
     console.log("Listening to port " + port);
 })
